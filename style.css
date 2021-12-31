@@ -11,6 +11,7 @@ body {
 
     margin:0;
 
+
     border: 2px solid yellow;
 }
 
@@ -21,6 +22,7 @@ body {
     font-size: 24px;
     color: #E5E7EB;
     height: 72px;
+    padding: 0px 100px;
 
     display: flex;
 
@@ -43,6 +45,7 @@ body {
 .hero {
     background-color:#1F2937;
     color: #E5E7EB;
+    padding: 0px 100px;
     flex: 1;
 
     display: flex;
@@ -64,20 +67,36 @@ body {
 }
 
 .content {
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.cards {
     display: flex;
     justify-content: center;
-    flex: 1;
+    margin: 24px;
 }
 
 .review {
+    padding: 0px 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     flex: 1;
+
+    background-color: #E5E7EB;
 }
 
 .bot-hero {
+    padding: 0px 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
@@ -94,6 +113,7 @@ body {
 }
 
 .footer {
+    padding: 0px 100px;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
