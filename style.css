@@ -1,0 +1,108 @@
+/*Landing Page .css file*/
+
+body {
+    min-height: 100vh;
+
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    margin:0;
+
+    border: 2px solid yellow;
+}
+
+
+.header {
+    border: 2px solid red;
+    background-color:#1F2937;
+    font-size: 24px;
+    color: #E5E7EB;
+    height: 72px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    margin: 18px;
+}
+
+.header-links {
+    border: 2px solid green;
+    display: flex;
+    align-items:center;
+}
+
+.hero {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content-text {
+    font-size: 24px;
+}
+
+.hero-content-text, .hero-image {
+    margin: 8px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.bot-hero {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+.snare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    max-width: 500px;
+    width: 500px;
+    height: 100px;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type:none;
+    text-decoration:none;
+    margin:18px;
+}
