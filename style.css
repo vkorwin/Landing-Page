@@ -1,5 +1,9 @@
 /*Landing Page .css file*/
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     min-height: 100vh;
 
@@ -7,6 +11,8 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+
+
 
 
     margin:0;
@@ -87,9 +93,29 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 2;
+
+    margin: 0 -9999rem;
+    padding: 0 9999rem;
+
+  
 
     background-color: #E5E7EB;
+}
+
+.quote, .quote-source {
+    max-width: 450px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    font-weight:300;
+    align-items: center;
+}
+
+.quote-source {
+    align-self:flex-end;
 }
 
 .bot-hero {
@@ -103,13 +129,27 @@ body {
 
 .snare {
     display: flex;
-    justify-content: center;
+    /*flex-shrink:1;*/
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    max-width: 500px;
-    width: 500px;
+    padding-right: 50px;
+    padding-left: 50px;
+    /*max-width: 700px;*/
+    min-width: 500px;
+    /*width: 750px;*/
     height: 100px;
 
+}
+.snare-content {
+    color: white;
+}
+.sc-1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+.sc-2 {
+    font-size: 12px;
 }
 
 .footer {
@@ -119,6 +159,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 45px;
+    font-size: 12px;
+
 }
 
 li {
